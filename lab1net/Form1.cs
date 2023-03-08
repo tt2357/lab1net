@@ -26,15 +26,9 @@ namespace lab1net
 
         private void refresh(object sender, EventArgs e)
         {
-            label1.Text = DateTime.Now.ToString();
+            label1.Text = DateTime.Now.ToString("hh:mm:ss");
         }
         
-  
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
-
         private void button1_Click_1(object sender, EventArgs e)
         {
             Form2 Form2 = new Form2();
